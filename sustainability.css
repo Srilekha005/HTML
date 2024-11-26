@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4c3; /* Light greenish-yellow background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background-color: #558B2F; /* Dark olive-green header */
+    color: white;
+    padding: 20px;
+    border-bottom: 4px solid #33691E;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* Practice Section */
+.practice {
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #9CCC65; /* Light green accent */
+}
+
+.practice h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #558B2F;
+}
+
+.practice p {
+    font-size: 16px;
+}
+
+.practice a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #33691E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.practice a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
